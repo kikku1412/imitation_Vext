@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(198, 201, 201);
+  position :fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+.header_left {
+  margin-left: 30px;
+  height: 65px;
+  float: left;
+  display: flex;
+  align-items: center;
+
+  & img {
+    height: 40px;
+    display: block;
+  }
+}
+
+.header_right {
+
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float: right;
+  height: 65px;
+  margin-right: 15px;
+}
+
+.header_right a {
+  line-height: 65px;
+}
+
+.header_right a:hover {
+  background-color: rgba(255, 255, 255, 0.865);
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.header_left:hover {
+  background-color: rgba(255, 255, 255, 0.865);
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.contain2 , .contain4{
+  max-width: 1170px;
+  width: 100%;
+  padding: 20px 15px;
+  margin: auto;
+}
+
+.top_wrapper {
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  text-align: center;
+}
+
+.contain2 h1,.contain2 h3 ,.contain4 p{
+  opacity: 0.8;
+}
+
+.contain3{
+  height: 100px;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+
+  margin: auto;
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.contain3 h3{
+  margin-left: auto;
+  height: 100%;
+  padding: 10px 15px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.contain3 p{
+  margin: 0;
+}
+
+.contain3 li{
+  height: 50%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.contain3 ul{
+  width: 60%;
+  list-style: none;
+  height: 100%;
+  background-color: white;
+  padding-left: 2%;
+  margin-right: auto;
+}
+
+.red_letter{
+  color: red;
+  padding:0 10px ;
+}
+
+.contain3 p:hover, .detail a:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.detail{
+  width: 50%;
+  margin: auto;
+  text-align: right;
+}
+
+.message_wrapper{
+  height: 200px;
+  background-color: burlywood;
+}
+
+.message_wrapper h1{
+  display: flex;
+  align-items: center;
+  
+}
+
+.message_wrapper .red_letter{
+  font-size: small;
+}
+
+.contain4 p{
+  margin-top: -17px;
+}
+
+.box_wrapper{
+  width: 100%;
+  background-color: antiquewhite;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contain5{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  padding: 50px;
+}
+
+.box{
+  
+  width: 23%;
+  border: 5px solid black;
+  padding: 10px 7px;
+  margin: auto;
+  
+}
+
+.box1 img,.box2 img,.box4 img{
+  width: 70%;
+}
+
+.box3 img{
+  width: 60%;
+}
+
+.box1{
+  position: relative;
+  top: 60px;
+}
+
+.box2{
+  position: relative;
+  top: 30px;
+}
+
+.box4{
+  position: relative;
+  top: -30px;
+}
